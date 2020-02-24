@@ -1,10 +1,10 @@
 # Linq2db PostGIS Extensions
-C# .NET 4.5 library with extensions methods for spatial (`NpgsqlTypes.PostgisGeometry`) data type providing access to [PostGIS](http://postgis.net/) functions while using [linq2db](https://github.com/linq2db/linq2db) LINQ to database provider.
+C# .NET Standard 2.0.3 library with extensions methods for spatial (`NpgsqlTypes.PostgisGeometry`) data type providing access to [PostGIS](http://postgis.net/) functions while using [linq2db](https://github.com/linq2db/linq2db) LINQ to database provider.
 Demo application with tests is also included.
 
 ### Technologies
-Developed using MS Visual Studio 2013, C# .NET 4.5.
-Based on current versions of PostgreSQL (9.6), PostGIS (2.3.1), linq2db (1.0.7.4), linq2db.PostgreSQL (1.0.7.3), Npgsql (3.1.9).
+Developed using MS Visual Studio 2013 & 2019, Originally for C# .NET Framework 4.5, ported to C# .NET Standard 2.0.3.
+Based on current versions of PostgreSQL (12), PostGIS (2.3.1), linq2db (3.0.0), linq2db.PostgreSQL (2.9.6), Npgsql (3.2.5).
 
 ### Sample usage
 Using extensions methods inside LINQ expression:

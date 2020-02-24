@@ -50,7 +50,7 @@ namespace Linq2db.Postgis.Extensions
         /// http://postgis.refractions.net/documentation/manual-1.5/ST_EndPoint.html
         /// </summary>
         /// <param name="geom">Input geometry</param>
-        /// <returns>Last point of a LINESTRING geometry as a POINT or NULL if the input parameter is not a LINESTRING.</returns>   
+        /// <returns>Last point of a LINESTRING geometry as a POINT or NULL if the input parameter is not a LINESTRING.</returns>
         [Sql.Function("ST_EndPoint", ServerSideOnly = true)]
         public static PostgisGeometry StEndPoint(this PostgisGeometry geom)
         {
@@ -193,7 +193,7 @@ namespace Linq2db.Postgis.Extensions
         /// http://postgis.refractions.net/documentation/manual-1.5/ST_EndPoint.html
         /// </summary>
         /// <param name="geom">Input geometry</param>
-        /// <returns>First point of a LINESTRING geometry as a POINT or NULL if the input parameter is not a LINESTRING.</returns>   
+        /// <returns>First point of a LINESTRING geometry as a POINT or NULL if the input parameter is not a LINESTRING.</returns>
         [Sql.Function("ST_StartPoint", ServerSideOnly = true)]
         public static PostgisGeometry StStartPoint(this PostgisGeometry geom)
         {
